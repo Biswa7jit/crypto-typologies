@@ -1,0 +1,7 @@
+wallet_address,wallet_label,typology_demonstrated,inbound_txn_count,outbound_txn_count,total_inbound_eth,total_outbound_eth,value_retention_pct,dwell_minutes_first_in_to_first_out,flag_layering,flag_mule_wallet,flag_rapid_movement,flag_consolidation_dispersal
+0x326a898a59a1e301fc446b2bf8267bacd521837f,Intermediate Hop 1,Layering through crypto,1,1,25,24.9,0.996,15,YES,NO,NO,NO
+0x1c3bbeabd4a4084c5451878af71c8572f7242491,Intermediate Hop 2,Layering through crypto,1,1,24.9,24.8,0.995983935742972,15,YES,NO,NO,NO
+0x58b1707e7f5b3dcefbc30bd36eb40d8db6d77c2e,Intermediate Hop 3,Layering through crypto,1,1,24.8,24.7,0.995967741935484,15,YES,NO,NO,NO
+0x120f84824907f93011168f9bc40fdae3c9dde3bd,Mule Wallet (Hub),Mule wallets,5,1,5.5,5.4,0.981818181818182,150,NO,YES,NO,NO
+0x4d3152ae6f981f6a5cbeebe13289c590f3f2576a,Pass-Through Wallet,Rapid movement of funds,3,3,30,29.7,0.99,4,NO,NO,YES,NO
+0xfae02ac34586c4306a68063b6466c9da6301416e,Consolidation Hub,Wallet consolidation/dispersal,4,5,65,65,1,300,NO,NO,NO,YES
