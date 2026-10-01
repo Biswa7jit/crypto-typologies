@@ -4,10 +4,9 @@ A reference guide to seven core crypto financial crime typologies —
 each with a definition, a worked example, a diagram, and formula-driven
 detection logic that distinguishes it from the other six. Built
 entirely in Excel formulas for the detection engine, with a Markdown
-reference guide for the conceptual content. No Python, no SQL, no VBA.
+reference guide for the conceptual content.
 
-This is the eighth project in an AML/KYC portfolio series, and the
-one built specifically as a teaching/reference artifact — the kind of
+This project is built specifically as a teaching/reference artifact — the kind of
 document a crypto compliance team keeps to train new analysts and
 ground detection-rule design in a shared vocabulary, rather than a
 single case walkthrough.
@@ -75,7 +74,7 @@ workbook trigger **exactly one** of the four structural flags, and
 every other flag correctly returns NO for them — 24 checks, zero
 false positives, zero false negatives.
 
-![Wallet behavior analysis](screenshots/wallet_behavior_analysis.png)
+![Wallet behavior analysis](wallet_behavior_analysis.png)
 
 ## Key formulas used
 
@@ -101,7 +100,7 @@ All standard Excel — no add-ins, no VBA:
 | `Transactions` | All 31 transactions across the 7 mini-cases, with the 3 label-based flags computed |
 | `Wallet_Behavior_Analysis` | The 6 subject wallets, with the 4 structural flags computed and verified mutually exclusive |
 
-![Typology glossary](screenshots/typology_glossary.png)
+![Typology glossary](typology_glossary.png)
 
 ## How this connects to the rest of the portfolio
 
@@ -137,11 +136,5 @@ in a realistic investigation.
 
 ## About
 
-Built by [Your Name], CAMS-certified compliance analyst exploring
-crypto-asset AML/compliance, as a portfolio piece. See also: [link to
-SQL AML project], [link to Excel AML transaction monitoring project],
-[link to Sanctions & PEP screening project], [link to Customer Risk
-Rating Model project], [link to AML QA Review project], [link to
-On-Chain Transaction Investigation project], [link to Crypto
-Transaction Monitoring Case Study], and [link to Medium AML/crypto
-compliance article series].
+Built by Biswajit Das, CAMS-certified compliance analyst exploring
+crypto-asset AML/compliance, as a portfolio piece. 
